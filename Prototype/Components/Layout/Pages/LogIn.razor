@@ -8,8 +8,8 @@
         <div class="col-md-6">
             <form @onsubmit="SubmitForm">
                 <div class="mb-3">
-                    <label for="username" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="username" @bind="username" placeholder="Enter your username">
+                    <label for="pilotEmails" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="pilotEmails" @bind="pilotEmails" placeholder="Enter your Email">
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
@@ -29,20 +29,20 @@
 </style>
 
 @code {
-    private string username;
+    private string pilotEmails;
     private string password;
 
     private async Task SubmitForm()
     {
         //if login credentials are correct they will redirect to landingpage
-        if (!string.IsNullOrWhiteSpace(username) && !string.IsNullOrWhiteSpace(password))
+        if (!string.IsNullOrWhiteSpace(pilotEmails) && !string.IsNullOrWhiteSpace(password))
         {
             NavigationManager.NavigateTo("/LandingPage");
         }
         else
         {
         //error message if invalid credentials
-            Console.WriteLine("Invalid credentials. Please enter a username and password.");
+            Console.WriteLine("Invalid credentials. Please enter a Email and password.");
         }
     }
 }
