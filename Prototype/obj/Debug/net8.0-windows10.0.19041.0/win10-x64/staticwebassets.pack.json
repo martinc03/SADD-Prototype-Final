@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Prototype.styles.css",
+      "PackagePath": "staticwebassets\\Prototype.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\imagez\\component_2.png",
+      "PackagePath": "staticwebassets\\imagez\\component_2.png"
+    },
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\imagez\\component_4.png",
+      "PackagePath": "staticwebassets\\imagez\\component_4.png"
+    },
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\imagez\\component_5.png",
+      "PackagePath": "staticwebassets\\imagez\\component_5.png"
+    },
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\imagez\\redirect.jpg",
+      "PackagePath": "staticwebassets\\imagez\\redirect.jpg"
+    },
+    {
+      "Id": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.Prototype.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.Prototype.props",
+      "PackagePath": "build\\Prototype.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.Prototype.props",
+      "PackagePath": "buildMultiTargeting\\Prototype.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.Prototype.props",
+      "PackagePath": "buildTransitive\\Prototype.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

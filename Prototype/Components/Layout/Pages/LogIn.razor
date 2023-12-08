@@ -1,0 +1,48 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<h3>Login</h3>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form @onsubmit="SubmitForm">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" @bind="username" placeholder="Enter your username">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" @bind="password" placeholder="Enter your password">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+<style>
+    body {
+        background-color: #007BFF;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFFFFF;
+    }
+</style>
+
+@code {
+    private string username;
+    private string password;
+
+    private async Task SubmitForm()
+    {
+        //if login credentials are correct they will redirect to landingpage
+        if (!string.IsNullOrWhiteSpace(username) && !string.IsNullOrWhiteSpace(password))
+        {
+            NavigationManager.NavigateTo("/LandingPage");
+        }
+        else
+        {
+        //error message if invalid credentials
+            Console.WriteLine("Invalid credentials. Please enter a username and password.");
+        }
+    }
+}

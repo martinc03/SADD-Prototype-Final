@@ -1,0 +1,200 @@
+﻿@page "/InputInformation"
+@inherits LayoutComponentBase
+
+<div class="input-flight-container">
+    <h3>Input Flight Information</h3>
+
+    <form>
+        <div class="form-group">
+            <label for="flightDate">Date:</label>
+            <input type="date" id="flightDate" class="form-control" />
+            <div class="validation-message" style="display: @validationMessageDisplay;">Please enter a valid date.</div>
+        </div>
+
+        <div class="form-group">
+            <label for="flightTime">Time:</label>
+            <input type="time" id="flightTime" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="departureLocation">Departure Location:</label>
+            <input type="text" id="departureLocation" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="arrivalLocation">Arrival Location:</label>
+            <input type="text" id="arrivalLocation" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="flightDuration">Flight Duration (hours):</label>
+            <input type="number" id="flightDuration" class="form-control" />
+        </div>
+
+
+        <div class="form-group">
+            <label for="pilots">Pilots:</label>
+            <input type="text" id="pilots" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="crewMembers">Crew Members:</label>
+            <input type="text" id="crewMembers" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="flightPurpose">Flight Purpose:</label>
+            <select id="flightPurpose" class="form-control">
+                <option value="training">Training</option>
+                <option value="commercial">Commercial</option>
+                <option value="private">Private</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="recurringFlight">Recurring Flight:</label>
+            <input type="checkbox" id="recurringFlight" />
+        </div>
+
+        <div class="form-group">
+            <label for="weatherConditions">Weather Conditions:</label>
+            <textarea id="weatherConditions" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="documentUpload">Document Upload:</label>
+            <input type="file" id="documentUpload" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="notificationPreferences">Notification Preferences:</label>
+            <input type="text" id="notificationPreferences" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="flightStatus">Flight Status:</label>
+            <select id="flightStatus" class="form-control">
+                <option value="scheduled">Scheduled</option>
+                <option value="inProgress">In Progress</option>
+                <option value="completed">Completed</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="emergencyContact">Emergency Contact Information:</label>
+            <input type="text" id="emergencyContact" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary" @onclick="SaveFlight">Save</button>
+        </div>
+    </form>
+
+    <div class="success-message" style="display: @successMessageDisplay;">
+        Flight information saved successfully!
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #007BFF; /* Blue background color for the entire page */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFFFFF; /* White text color */
+    }
+
+    .input-flight-container {
+        background-color: #0056b3; /* Darker blue background color for the form container */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #FFFFFF; /* White label color */
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #CCCCCC; /* Light border color */
+        border-radius: 5px;
+        background-color: #FFFFFF; /* White background color for input fields */
+        color: #333333; /* Dark text color */
+    }
+
+    .btn-primary {
+        background-color: #FFFFFF; /* White button color */
+        color: #007BFF; /* Blue button text color */
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .success-message {
+        color: #28a745; /* Green color for success message */
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .validation-message {
+        color: #dc3545; /* Red color for validation message */
+        font-size: 14px;
+        margin-top: 5px;
+        display: none; /* Initially hidden */
+    }
+</style>
+
+
+@code {
+    private string successMessageDisplay = "none";
+    private string validationMessageDisplay = "none";
+    private string flightDate;
+
+    private async Task SaveFlight()
+    {
+        // Perform validation
+        if (await ValidateForm())
+        {
+            // Perform form submission logic here (e.g., save data to a database)
+
+            // Show success message
+            successMessageDisplay = "block";
+
+            // Reset validation message display
+            validationMessageDisplay = "none";
+        }
+        else
+        {
+            // Show validation message
+            validationMessageDisplay = "block";
+
+            // Hide success message in case it was previously shown
+            successMessageDisplay = "none";
+        }
+    }
+
+    private async Task<bool> ValidateForm()
+    {
+        // Implement your validation logic here
+        // For demonstration purposes, checking if the date is not empty
+        // You should replace this with your actual validation logic
+        if (string.IsNullOrWhiteSpace(flightDate))
+        {
+            return false;
+        }
+
+        // Additional validation checks can be added here
+
+        return true;
+    }
+}

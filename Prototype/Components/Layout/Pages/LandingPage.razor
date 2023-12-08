@@ -1,0 +1,50 @@
+﻿@page "/LandingPage"
+@inject NavigationManager NavigationManager
+
+<h3>ALPA</h3>
+
+<div class="container">
+    <div class="image-container">
+        <img src="imagez/component_5.png" />
+    </div>
+    <div>
+        <img src="imagez/component_2.png" />
+    </div>
+    <div>
+        <img src="imagez/component_4.png" />
+    </div>
+    <div class="redirect-container">
+        <img src="imagez/redirect.jpg" @onclick="GoToInputInformation" height="50" width="50" />
+    </div>
+</div>
+
+<style>
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image-container {
+        flex: 1 0 50%;
+        padding: 5px;
+    }
+
+    .redirect-container {
+        flex: 1 0 100%;
+        text-align: right;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+</style>
+
+@code {
+    private void GoToInputInformation()
+    {
+        NavigationManager.NavigateTo("/InputInformation");
+    }
+}
