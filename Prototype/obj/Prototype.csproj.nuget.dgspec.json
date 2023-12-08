@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\Prototype.csproj": {}
+    "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\Prototype.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\Prototype.csproj": {
+    "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\Prototype.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\Prototype.csproj",
+        "projectUniqueName": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\Prototype.csproj",
         "projectName": "Prototype",
-        "projectPath": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\Prototype.csproj",
+        "projectPath": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\Prototype.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\obj\\",
+        "outputPath": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

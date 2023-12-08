@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "82Zzchk2Vp8xDbci88qJo7SRsfqoifcYc8qZ6jUQsxg=",
+  "Hash": "eXCw9VKFaIQnKgW+zA4lSXrTqi+sQjJodfF7jr3wDzs=",
   "Source": "Prototype",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,17 +10,17 @@
     {
       "Name": "Prototype\\wwwroot",
       "Source": "Prototype",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Prototype.styles.css",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Prototype.styles.css",
       "SourceId": "Prototype",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "Prototype.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Prototype.styles.css"
+      "OriginalItemSpec": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\Prototype.styles.css"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Prototype.bundle.scp.css",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Prototype.bundle.scp.css",
       "SourceId": "Prototype",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "Prototype.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Prototype.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\Prototype.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\css\\app.css",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\css\\app.css",
       "SourceId": "Prototype",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Prototype",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Prototype",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\favicon.png",
       "SourceId": "Prototype",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\imagez\\component_2.png",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\imagez\\component_2.png",
       "SourceId": "Prototype",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "imagez/component_2.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\imagez\\component_2.png"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\imagez\\component_4.png",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\imagez\\component_4.png",
       "SourceId": "Prototype",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "imagez/component_4.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\imagez\\component_4.png"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\imagez\\component_5.png",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\imagez\\component_5.png",
       "SourceId": "Prototype",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "imagez/component_5.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\imagez\\component_5.png"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\imagez\\redirect.jpg",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\imagez\\redirect.jpg",
       "SourceId": "Prototype",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "imagez/redirect.jpg",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\imagez\\redirect.jpg"
     },
     {
-      "Identity": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\index.html",
       "SourceId": "Prototype",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\Prototype_InputFlights\\Prototype\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\marti\\Desktop\\Github\\SADD-Prototype-Final\\Prototype\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index.html",
       "AssetKind": "All",

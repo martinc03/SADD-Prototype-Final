@@ -68,11 +68,6 @@
         </div>
 
         <div class="form-group">
-            <label for="notificationPreferences">Notification Preferences:</label>
-            <input type="text" id="notificationPreferences" class="form-control" />
-        </div>
-
-        <div class="form-group">
             <label for="flightStatus">Flight Status:</label>
             <select id="flightStatus" class="form-control">
                 <option value="scheduled">Scheduled</option>
@@ -88,7 +83,9 @@
         </div>
 
         <div class="form-group">
-            <button type="submit" class="btn btn-primary" @onclick="SaveFlight">Save</button>
+            <NavLink href="counter" class="btn btn-primary">
+                Save
+            </NavLink>
         </div>
     </form>
 
@@ -197,4 +194,5 @@
 
         return true;
     }
+
 }

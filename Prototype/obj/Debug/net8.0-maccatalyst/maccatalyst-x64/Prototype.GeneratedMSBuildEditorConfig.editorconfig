@@ -13,86 +13,86 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Prototype
 build_property.RootNamespace = Prototype
-build_property.ProjectDir = C:\Users\marti\Desktop\Github\Prototype_InputFlights\Prototype\
+build_property.ProjectDir = C:\Users\marti\Desktop\Github\SADD-Prototype-Final\Prototype\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\marti\Desktop\Github\Prototype_InputFlights\Prototype
+build_property.MSBuildProjectDirectory = C:\Users\marti\Desktop\Github\SADD-Prototype-Final\Prototype
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/App.xaml]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prototype.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/MainPage.xaml]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Prototype.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/Components/Layout/Pages/Counter.razor]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/Components/Layout/Pages/Counter.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/Components/Layout/Pages/Home.razor]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/Components/Layout/Pages/Home.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/Components/Layout/Pages/LandingPage.razor]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/Components/Layout/Pages/LandingPage.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUGFnZXNcTGFuZGluZ1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/Components/Layout/Pages/LogIn.razor]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/Components/Layout/Pages/LogIn.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUGFnZXNcTG9nSW4ucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/Components/Layout/Pages/Weather.razor]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/Components/Layout/Pages/Weather.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/Routes.razor]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/Routes.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/_Imports.razor]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/_Imports.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/Components/Layout/MainLayout.razor]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = b-4yf7y68i4y
 
-[C:/Users/marti/Desktop/Github/Prototype_InputFlights/Prototype/Components/Layout/NavMenu.razor]
+[C:/Users/marti/Desktop/Github/SADD-Prototype-Final/Prototype/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==

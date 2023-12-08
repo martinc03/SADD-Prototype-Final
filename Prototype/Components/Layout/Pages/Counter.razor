@@ -1,16 +1,132 @@
 ﻿@page "/counter"
 
-<h1>Counter</h1>
+<h3>Flight Calendar</h3>
 
-<p role="status">Current count: @currentCount</p>
+<div class="calendar">
+    <div class="month">
+        <div class="month-name">December 2023</div>
+    </div>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    <div class="weekdays">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+    </div>
+
+    <div class="days">
+        <!-- Generate calendar days dynamically based on the month -->
+        @for (int day = 1; day <= 31; day++)
+        {
+            <div class="day" @onclick="(() => ShowPilotInformation(day))">@day</div>
+        }
+    </div>
+
+    <div id="pilotInformation" class="pilot-info">
+        @if (!string.IsNullOrWhiteSpace(pilotInformation))
+        {
+            <h4>Pilot Information</h4>
+            <div>@(new MarkupString(pilotInformation))</div>
+        }
+        else
+        {
+            <p>No pilot information available for the selected day.</p>
+        }
+    </div>
+</div>
+
+<style>
+    .calendar {
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .month {
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    .month-name {
+        font-weight: bold;
+    }
+
+    .weekdays {
+        display: flex;
+        justify-content: space-around;
+        background-color: #2980b9;
+        color: #fff;
+        padding: 10px;
+    }
+
+    .days {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .day {
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        background-color: #ecf0f1;
+    }
+
+        .day:hover {
+            background-color: #bdc3c7;
+        }
+
+    .pilot-info {
+        margin-top: 20px;
+        padding: 20px;
+        border: 1px solid #3498db;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .pilot-info h4 {
+            color: #3498db;
+        }
+
+        .pilot-info p {
+            margin: 0 0 15px 0;
+            color: #333;
+        }
+</style>
 
 @code {
-    private int currentCount = 0;
+    private string pilotInformation;
+    private int selectedDay = -1;
 
-    private void IncrementCount()
+    private void ShowPilotInformation(int day)
     {
-        currentCount++;
+        if (selectedDay != day)
+        {
+            selectedDay = day;
+            pilotInformation = GetPilotInformation(day);
+        }
+        else
+        {
+            selectedDay = -1;
+            pilotInformation = null;
+        }
+    }
+
+    private string GetPilotInformation(int day)
+    {
+        // This is a fake example; replace it with your actual logic to fetch pilot information
+        return $"<p><strong>Pilot Name:</strong> John Doe</p>" +
+               $"<p><strong>Flight Hours:</strong> 1500</p>" +
+               $"<p><strong>License Type:</strong> Commercial</p>" +
+               $"<p><strong>Aircraft Type:</strong> Boeing 737</p>" +
+               $"<p><em>Additional Information for Day {day}</em></p>";
     }
 }
